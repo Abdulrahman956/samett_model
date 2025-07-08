@@ -212,4 +212,4 @@ def get_signs():
     return jsonify({'signs': detected_signs})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)  #192.168.1.4
+    app.run(host='0.0.0.0', port=5001, debug=True)
